@@ -2,4 +2,6 @@ python-osc
 requests
 sounddevice
 soundfile
+numpy
+sherpa-onnx>=1.13.4
 pyinstaller

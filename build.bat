@@ -1,4 +1,3 @@
-```bat
 @echo off
 setlocal
 cd /d "%~dp0"
@@ -44,4 +43,3 @@ echo.
 echo Build failed - see the messages above.
 pause
 exit /b 1
-```
