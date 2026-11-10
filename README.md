@@ -36,7 +36,7 @@ https://hub.aivis-project.com/
 - VRChatのチャットボックスには144文字の文字数制限があります。ただし、TTSは入力された全文を読み上げます。
 
 
-**JP**
+**ENG**
 ## HOW TO USE!!!
 1. Download the release
 2. Hit start.bat
