@@ -1,3 +1,42 @@
+**JP**
+## 使い方!!!
+
+1. Releaseからファイルをダウンロードします。
+2. `start.bat` を実行します。
+3. Aivis Speech Engineが起動するまで待ちます。
+   （`Uvicorn running on http://localhost:10101 (Press CTRL+C to quit)` と表示されれば起動完了です）
+4. アプリ内の「Reload」を押します。
+5. マイクや音声出力などの設定を行います。
+6. VRChat内で **Yキー** を押すと、テキスト入力ダイアログが開きます！
+
+追加の音声はAivis Hubからダウンロードできます！
+https://hub.aivis-project.com/
+
+使用する前に、必ず各音声のライセンスを確認してください。
+
+## EXEのビルド方法（Windows）
+
+1. Python 3.10以降をインストールします（インストール時に「Add Python to PATH」にチェックを入れてください）。
+2. `vrc_tts_chat.py`、`requirements.txt`、`build.bat`、`get_engine.ps1` を同じフォルダに配置します。
+3. `build.bat` をダブルクリックして実行します。
+
+ビルドが完了すると、`dist\VRChatTTSChat.exe` が生成されます。
+
+## その他の設定・注意事項
+
+- オプションでSST機能を追加しました。Qwen ASRを使用します。
+- VRChat内で「アクションメニュー」→「オプション」→「OSC」→ **「Enabled」** を有効にしてください。
+- 他のユーザーにもTTS音声を聞かせるには、VB-Cableなどの仮想オーディオケーブルに音声出力をルーティングし、VRChatのマイク入力をそのケーブルの出力に設定してください。
+- VRChatがアクティブな状態では、VRChat標準のYキーによるチャットボックスは無効化されます。他のアプリでは通常どおりYキーを使用できます。
+- VRChatはボーダーレスウィンドウモード、またはウィンドウモードで使用してください。フルスクリーン（排他モード）ではポップアップが表示されない場合があります。
+- 設定は `%APPDATA%\VRChatTTSChat\config.json` に保存されます。
+
+## 追加の注意事項!!!
+
+- VRChatのチャットボックスには144文字の文字数制限があります。ただし、TTSは入力された全文を読み上げます。
+
+
+**JP**
 ## HOW TO USE!!!
 1. Download the release
 2. Hit start.bat
