@@ -1,3 +1,5 @@
+問題があったらぜんぜんわかんない ;-;　Claudeが書いたので、、、
+
 **JP**
 ## 使い方!!!
 
@@ -37,6 +39,8 @@ https://hub.aivis-project.com/
 
 
 **ENG**
+If you have problems im sorry i cant help you because claurde wrote it ;-;
+
 ## HOW TO USE!!!
 1. Download the release
 2. Hit start.bat
